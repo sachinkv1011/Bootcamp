@@ -46,9 +46,16 @@ public class MenuDriven {
                     num1 = sc.nextInt();
                     System.out.println("Enter the first num:");
                     num2 = sc.nextInt();
-                    int div = num1 / num2;
-                    System.out.println("mul = " + div);
-                    break;
+                    try {
+                        int div = num1 / num2;
+                        System.out.println("mul = " + div);
+                        break;
+                    }
+                    catch(ArithmeticException e){
+                        System.out.println("Division cannot be done with reminder zero");
+                        break;
+                   }
+
 
                 default:
                     System.out.println("Invalid choice");
