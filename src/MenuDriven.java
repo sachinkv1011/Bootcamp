@@ -36,6 +36,7 @@ public class MenuDriven {
                 int mul=num1*num2;
                 System.out.println("sub = "+mul);
                 break;
+
         }
 
 
