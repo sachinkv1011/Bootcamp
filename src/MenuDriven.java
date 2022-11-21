@@ -27,7 +27,17 @@ public class MenuDriven {
                  num2=sc.nextInt();
                  int sub=num1+num2;
                 System.out.println("sub = "+sub);
+                break;
+            case 3:
+                System.out.println("Enter the first num:");
+                num1=sc.nextInt();
+                System.out.println("Enter the first num:");
+                num2=sc.nextInt();
+                int mul=num1+num2;
+                System.out.println("sub = "+mul);
+                break;
         }
+
 
     }
 }
