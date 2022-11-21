@@ -46,6 +46,9 @@ public class MenuDriven {
                 System.out.println("div = "+div);
                 break;
 
+            default:
+                System.out.println("Wrong choice.Enter the choice from menu");
+
         }
 
 
