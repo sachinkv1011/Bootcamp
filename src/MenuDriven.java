@@ -33,7 +33,7 @@ public class MenuDriven {
                 num1=sc.nextInt();
                 System.out.println("Enter the first num:");
                 num2=sc.nextInt();
-                int mul=num1+num2;
+                int mul=num1*num2;
                 System.out.println("sub = "+mul);
                 break;
         }
