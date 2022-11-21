@@ -37,6 +37,18 @@ public class MenuDriven {
                 System.out.println("sub = "+mul);
                 break;
 
+            case 4:
+                System.out.println("Enter the first num:");
+                num1=sc.nextInt();
+                System.out.println("Enter the first num:");
+                num2=sc.nextInt();
+                int div=num1*num2;
+                System.out.println("div = "+div);
+                break;
+
+            default:
+                System.out.println("Wrong choice.Enter the choice from menu");
+
         }
 
 
