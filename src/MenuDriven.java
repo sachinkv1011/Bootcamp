@@ -9,15 +9,24 @@ public class MenuDriven {
         System.out.println("Enter your choice from above");
         Scanner sc=new Scanner(System.in);
         int choice=sc.nextInt();
+        int num1,num2;
 
         switch(choice){
             case 1:
                 System.out.println("Enter the first num:");
-                int num1=sc.nextInt();
+                 num1=sc.nextInt();
                 System.out.println("Enter the first num:");
-                int num2=sc.nextInt();
+                 num2=sc.nextInt();
                 int sum=num1+num2;
                 System.out.println("sum = "+sum);
+                break;
+            case 2:
+                System.out.println("Enter the first num:");
+                 num1=sc.nextInt();
+                System.out.println("Enter the first num:");
+                 num2=sc.nextInt();
+                 int sub=num1+num2;
+                System.out.println("sub = "+sub);
         }
 
     }
